@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/addActivity"
+        android:title="Add Activity"
+        android:icon="@drawable/ic_baseline_post_add_24"
+        android:onClick="onSelectAddActivity"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/DeleteActivity"
+        android:title="Delete Activity"
+        android:icon="@drawable/ic_baseline_delete_sweep_24"
+        android:onClick="onSelectDeleteActivity"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/Summary"
+        android:title="Summary"
+        android:onClick="onSelectSelectSummary"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/CleatStat"
+        android:title="Clear Stat"
+        android:onClick="onSelectClearStatActivity"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/DeleteAllActivity"
+        android:title="Delete All Activity"
+        android:onClick="onSelectDeleteAllActivity"
+        app:showAsAction="never"/>
+
+</menu>
